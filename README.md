@@ -1,4 +1,3 @@
-## PornHubPy
 > 声明：本项目旨在学习Scrapy爬虫框架和MongoDB数据库，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
 
 * 项目主要是爬取全球最大成人网站PornHub的视频标题、时长、mp4链接、封面URL和具体的PornHub链接
@@ -29,8 +28,13 @@
 * 安装Python的依赖模块：pymongo、json、requests
 * 根据自己需要修改 Scrapy 中关于 间隔时间、启动Requests线程数等得配置
 
-## 运行截图
+### 启动
 
+* python PornHub/quickstart.py
+
+## 运行截图
+![](https://github.com/xiyouMc/PornHubBot/blob/master/img/running.png?raw=true)
+![](https://github.com/xiyouMc/PornHubBot/blob/master/img/mongodb.png?raw=true)
 
 ## 数据库说明
 
