@@ -1,54 +1,49 @@
-> 免责声明：本项目旨在学习Scrapy爬虫框架和MongoDB数据库，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
+> Disclaimer: This project is intended to study the Scrapy Spider Framework and the MongoDB database, can not be used for commercial and personal other intentions. If used improperly, by the individual bear.
 
-<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/PornHubCode.png?raw=true" width = "800" height = "400" alt="图片名称" align=center />
-
-
-## 简介
-
-* 项目主要是爬取全球最大成人网站PornHub的视频标题、时长、mp4链接、封面URL和具体的PornHub链接
-* 项目爬的是PornHub.com，结构简单，速度飞快
-* 爬取PornHub视频的速度可以达到500万/天以上。具体视个人网络情况,因为我是家庭网络，所以相对慢一点。
-* 10个线程同时请求，可达到如上速度。若个人网络环境更好，可启动更多线程来请求，具体配置方法见    [启动前配置]
+* The project is mainly crawling the world's largest adult site PornHub，contains video title、 duration、 mp4 link、 cover url and specific PornHub link.
+* Project crawling PornHub.com, simple structure, fastly.
+* Crawling PornHub video speed can reach 5 million / day or more. Specifically depending on the personal network, because I was a home network, so relatively slow.
+* 10 threads at the same time request, can achieve the above speed. If the personal network environment is better, you can start more threads to request, the specific configuration see [pre-boot configuration].
 
 
-## 环境、架构
+## Environment, Architecture
 
-开发语言: Python2.7
+Language: Python2.7
 
-开发环境: MacOS系统、4G内存
+Environment: MacOS、4G RAM
 
-数据库: MongoDB
+Database: MongoDB
 
-* 主要使用 scrapy 爬虫框架
-* 从Cookie池和UA池中随机抽取一个加入到Spider
-* start_requests 根据 PorbHub 的分类，启动了5个Request，同时对五个分类进行爬取。
-* 并支持分页爬取数据，并加入到待爬队列。
+* Mainly use the scrapy reptile framework
+* Extract a join to the Spider randomly from the Cookie pool and UA pool
+* Start_requests based on PorbHub classification, started five Request, while the five categories to crawl.
+* And support paging crawl data, and join the queue to be queued.
 
-## 使用说明
+## Instructions for use
 
-### 启动前配置
+### Pre-boot configuration
 
-* 安装MongoDB,并启动，不需要配置
-* 安装Scrapy
-* 安装Python的依赖模块：pymongo、json、requests
-* 根据自己需要修改 Scrapy 中关于 间隔时间、启动Requests线程数等得配置
+* Install MongoDB and start without configuration
+* Install Scrapy
+* Install Python dependent modules：pymongo、json、requests
+* According to their own need to modify the Scrapy on the interval time, start Requests the number of threads and so on the configuration
 
-### 启动
+### Start up
 
 * python PornHub/quickstart.py
 
-## 运行截图
+## Run screenshots
 ![](https://github.com/xiyouMc/PornHubBot/blob/master/img/running.png?raw=true)
 ![](https://github.com/xiyouMc/PornHubBot/blob/master/img/mongodb.png?raw=true)
 
-## 数据库说明
+## Database description
 
-数据库中保存数据的表是 PhRes。以下是字段说明:
+The table in the database that holds the data is PhRes. The following is a field description:
 
-#### PhRes 表：
+#### PhRes table：
 	
-	video_title:视频的标题,并作为唯一标识.
-	link_url:视频调转到PornHub的链接
-	image_url:视频的封面链接
-	video_duration:视频的时长，以 s 为单位
-	quality_480p: 视频480p的 mp4 下载地址
+	video_title:     The title of the video, and as a unique.
+	link_url:        Video jump to PornHub`s link
+	image_url:       Video cover link
+	video_duration:  The length of the video, in s
+	quality_480p:    Video 480p mp4 download address
