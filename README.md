@@ -1,10 +1,4 @@
-公众号：DeveloperPython 
-
-![](https://github.com/xiyouMc/PornHubBot/blob/master/img/qrcode.jpg?raw=true)
-
-微信交流群
-
-<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/Wechat.jpeg?raw=true" width = "310" height = "400" alt="图片名称" align=center />
+<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/PornHubCode.png?raw=true" width = "800" height = "400" alt="图片名称" align=center />
 
 
 > 声明：本项目旨在学习Scrapy爬虫框架和MongoDB数据库，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
