@@ -1,7 +1,9 @@
+> 免责声明：本项目旨在学习Scrapy爬虫框架和MongoDB数据库，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
+
 <img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/PornHubCode.png?raw=true" width = "800" height = "400" alt="图片名称" align=center />
 
+![](https://github.com/xiyouMc/PornHubBot/blob/master/img/HackersHub.png?raw=true)
 
-> 声明：本项目旨在学习Scrapy爬虫框架和MongoDB数据库，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
 
 * 项目主要是爬取全球最大成人网站PornHub的视频标题、时长、mp4链接、封面URL和具体的PornHub链接
 * 项目爬的是PornHub.com，结构简单，速度飞快
