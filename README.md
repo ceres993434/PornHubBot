@@ -1,5 +1,7 @@
 关注我的公众号：DeveloperPython 收到实时的项目动态。
+![](https://github.com/xiyouMc/PornHubBot/blob/master/img/qrcode.jpg?raw=true)
 
+![](https://github.com/xiyouMc/PornHubBot/blob/master/img/xiaomiquan.png?raw=true)
 
 > 声明：本项目旨在学习Scrapy爬虫框架和MongoDB数据库，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
 
