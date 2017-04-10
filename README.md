@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 关注我的公众号：DeveloperPython 收到实时的项目动态。
+=======
+公众号：DeveloperPython 
+>>>>>>> ca7f47a119d29f959923a557de34ebf90a142d32
 
 ![](https://github.com/xiyouMc/PornHubBot/blob/master/img/qrcode.jpg?raw=true)
 
