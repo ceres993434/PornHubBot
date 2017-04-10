@@ -2,7 +2,9 @@
 
 ![](https://github.com/xiyouMc/PornHubBot/blob/master/img/qrcode.jpg?raw=true)
 
-<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/xiaomiquan.png?raw=true" width = "350" height = "500" alt="图片名称" align=center />
+微信交流群
+
+<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/Wechat.jpeg?raw=true" width = "310" height = "400" alt="图片名称" align=center />
 
 
 > 声明：本项目旨在学习Scrapy爬虫框架和MongoDB数据库，不可使用于商业和个人其他意图。若使用不当，均由个人承担。
