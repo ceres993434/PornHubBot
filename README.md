@@ -1,9 +1,9 @@
-> Disclaimer: This project is intended to study the Scrapy Spider Framework and the MongoDB database, can not be used for commercial and personal other intentions. If used improperly, by the individual bear.
+> Disclaimer: This project is intended to study the Scrapy Spider Framework and the MongoDB database, can not be used for commercial or other personal intentions. If used improperly, it will be the individual bear.
 
-* The project is mainly crawling the world's largest adult site PornHub，contains video title、 duration、 mp4 link、 cover url and specific PornHub link.
-* Project crawling PornHub.com, simple structure, fastly.
+* The project is mainly crawling the largest adult site int the world -- PornHub，contains video title、 duration、 mp4 link、 cover url and specific PornHub link.
+* Project crawling PornHub.com with simple structure and fastly.
 * Crawling PornHub video speed can reach 5 million / day or more. Specifically depending on the personal network, because I was a home network, so relatively slow.
-* 10 threads at the same time request, can achieve the above speed. If the personal network environment is better, you can start more threads to request, the specific configuration see [pre-boot configuration].
+* Request 10 threads at the same time can achieve the speed above. If the personal network environment is better, you can start more threads to request, the specific configuration see [pre-boot configuration].
 
 
 ## Environment, Architecture
@@ -14,10 +14,10 @@ Environment: MacOS、4G RAM
 
 Database: MongoDB
 
-* Mainly use the scrapy reptile framework
-* Extract a join to the Spider randomly from the Cookie pool and UA pool
-* Start_requests based on PorbHub classification, started five Request, while the five categories to crawl.
-* And support paging crawl data, and join the queue to be queued.
+* Mainly use the scrapy reptile framework.
+* Join to the Spider randomly by extracted from the Cookie pool and UA pool.
+* Start_requests start five Request based on PorbHub classification, and crawl the five categories at the same time.
+* Support paging crawl data, and join to the queue.
 
 ## Instructions for use
 
@@ -26,7 +26,7 @@ Database: MongoDB
 * Install MongoDB and start without configuration
 * Install Scrapy
 * Install Python dependent modules：pymongo、json、requests
-* According to their own need to modify the Scrapy on the interval time, start Requests the number of threads and so on the configuration
+* Modify the configuration by needed, such as the interval time, the number of threads, etc.
 
 ### Start up
 
