@@ -1,4 +1,4 @@
-关注我的公众号：DeveloperPython 收到实时的项目动态。
+公众号：DeveloperPython 
 
 ![](https://github.com/xiyouMc/PornHubBot/blob/master/img/qrcode.jpg?raw=true)
 
