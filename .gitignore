@@ -1,1 +1,4 @@
 *.pyc
+*.DS_Store
+*.log
+*.out
