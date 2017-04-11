@@ -30,7 +30,9 @@ Database: MongoDB
 
 ### Start up
 
-* python PornHub/quickstart.py
+* cd PornHub
+* python quickstart.py
+
 
 ## Run screenshots
 ![](https://github.com/xiyouMc/PornHubBot/blob/master/img/running.png?raw=true)
