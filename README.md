@@ -55,7 +55,7 @@ The table in the database that holds the data is PhRes. The following is a field
 
 * QQ Group: 584296293
 
-<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/WebHubCode.png?raw=true" width = "800" height = "400" alt="图片名称" align=center />
+<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/WebHubCode2.png?raw=true" width = "800" height = "400" alt="图片名称" align=center />
 
 ## Contribute
 
