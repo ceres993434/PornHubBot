@@ -47,3 +47,8 @@ The table in the database that holds the data is PhRes. The following is a field
 	image_url:       Video cover link
 	video_duration:  The length of the video, in s
 	quality_480p:    Video 480p mp4 download address
+
+
+## For Chinese
+
+<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/PornHubCode.png?raw=true" width = "800" height = "400" alt="图片名称" align=center />
