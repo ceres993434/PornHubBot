@@ -1,6 +1,6 @@
 > Disclaimer: This project is intended to study the Scrapy Spider Framework and the MongoDB database, can not be used for commercial or other personal intentions. If used improperly, it will be the individual bear.
 
-* The project is mainly crawling the largest adult site int the world -- PornHub，contains video title、 duration、 mp4 link、 cover url and specific PornHub link.
+* The project is mainly crawling the largest adult site in the world -- PornHub，contains video title、 duration、 mp4 link、 cover url and specific PornHub link.
 * Project crawling PornHub.com with simple structure and fastly.
 * Crawling PornHub video speed can reach 5 million / day or more. Specifically depending on the personal network, because I was a home network, so relatively slow.
 * Request 10 threads at the same time can achieve the speed above. If the personal network environment is better, you can start more threads to request, the specific configuration see [pre-boot configuration].
