@@ -57,10 +57,5 @@ The table in the database that holds the data is PhRes. The following is a field
 
 <img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/WebHubCode2.png?raw=true" width = "700" height = "400" alt="图片名称" align=center />
 
-## Contribute
-
-* 10.24
-
-<img src="https://github.com/xiyouMc/WebHubBot/blob/master/img/contribute.png?raw=true" width = "650" height = "330" alt="图片名称" align=center />
 
    
