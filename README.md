@@ -1,6 +1,6 @@
 > Disclaimer: This project is intended to study the Scrapy Spider Framework and the MongoDB database, can not be used for commercial or other personal intentions. If used improperly, it will be the individual bear.
 
-* The project is mainly crawling the largest adult site in the world -- PornHub，contains video title、 duration、 mp4 link、 cover url and specific PornHub link.
+* The project is mainly crawling the largest adult site in the world -- PornHub，contains video title, duration, mp4 link, cover url and specific PornHub link.
 * Project crawling PornHub.com with simple structure and fastly.
 * Crawling PornHub video speed can reach 5 million / day or more. Specifically depending on the personal network, because I was a home network, so relatively slow.
 * Request 10 threads at the same time can achieve the speed above. If the personal network environment is better, you can start more threads to request, the specific configuration see [pre-boot configuration].
@@ -10,7 +10,7 @@
 
 Language: Python2.7
 
-Environment: MacOS、4G RAM
+Environment: MacOS, 4G RAM
 
 Database: MongoDB
 
@@ -25,7 +25,7 @@ Database: MongoDB
 
 * Install MongoDB and start without configuration
 * Install Scrapy
-* Install Python dependent modules：pymongo、json、requests
+* Install Python dependent modules：pymongo, json, requests
 * Modify the configuration by needed, such as the interval time, the number of threads, etc.
 
 ### Start up
@@ -43,19 +43,15 @@ Database: MongoDB
 The table in the database that holds the data is PhRes. The following is a field description:
 
 #### PhRes table：
-	
-	video_title:     The title of the video, and as a unique.
-	link_url:        Video jump to PornHub`s link
-	image_url:       Video cover link
-	video_duration:  The length of the video, in s
-	quality_480p:    Video 480p mp4 download address
-
+  
+    video_title:     The title of the video, and as a unique.
+    link_url:        Video jump to PornHub`s link
+    image_url:       Video cover link
+    video_duration:  The length of the video, in s
+    quality_480p:    Video 480p mp4 download address
 
 ## For Chinese
 
 * QQ Group: 584296293
 
-<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/WebHubCode2.png?raw=true" width = "700" height = "400" alt="图片名称" align=center />
-
-
-   
+<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/WebHubCode2.png?raw=true" width = "700" height = "400" alt="图片名称" align=center />   
