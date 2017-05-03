@@ -32,8 +32,8 @@ class Spider(CrawlSpider):
             viewkey = re.findall('viewkey=(.*?)"',div.extract())
             # logging.debug(viewkey)
             yield Request(url='https://www.pornhub.com/embed/%s' % viewkey[0],callback = self.parse_ph_info)
-        url_next = selector.xpath('//a[@class="orangeButton" and text()="Next"]/@href').extract()
-        # logging.debug(url_next)
+        url_next = selector.xpath('//a[@class="orangeButton" and text()="Next "]/@href').extract()
+        logging.debug(url_next)
         if url_next:
         # if self.test:
             logging.debug(' next page:---------->' + self.host+url_next[0])
