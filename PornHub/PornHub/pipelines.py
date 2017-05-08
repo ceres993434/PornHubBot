@@ -8,6 +8,7 @@
 import pymongo
 from items import PornVideoItem
 
+
 class PornhubMongoDBPipeline(object):
     def __init__(self):
         clinet = pymongo.MongoClient("localhost", 27017)
@@ -15,7 +16,7 @@ class PornhubMongoDBPipeline(object):
         self.PhRes = db["PhRes"]
 
     def process_item(self, item, spider):
-        print 'MongoDBItem',item
+        print 'MongoDBItem', item
         """ 判断类型 存入MongoDB """
         if isinstance(item, PornVideoItem):
             print 'PornVideoItem True'
