@@ -1,5 +1,5 @@
 
-![][py2x] [![GitHub issues][issues_img]][issues] [![GitHub forks][forks]][network] [![GitHub stars][stars]][stargazers] [![GitHub license][license]][lic_file]
+![][py2x] [![GitHub forks][forks]][network] [![GitHub stars][stars]][stargazers] [![GitHub license][license]][lic_file]
 > Disclaimer: This project is intended to study the Scrapy Spider Framework and the MongoDB database, it cannot be used for commercial or other personal intentions. If used improperly, it will be the individuals bear.
 
 * The project is mainly used for crawling PornHub, the largest adult site in the world. In doing so it retrieves video titles, duration, mp4 link, cover url and direct PornHub url.
