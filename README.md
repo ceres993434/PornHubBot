@@ -1,3 +1,5 @@
+
+![][py2x] [![GitHub issues][issues_img]][issues] [![GitHub forks][forks]][network] [![GitHub stars][stars]][stargazers] [![GitHub license][license]][lic_file]
 > Disclaimer: This project is intended to study the Scrapy Spider Framework and the MongoDB database, it cannot be used for commercial or other personal intentions. If used improperly, it will be the individuals bear.
 
 * The project is mainly used for crawling PornHub, the largest adult site in the world. In doing so it retrieves video titles, duration, mp4 link, cover url and direct PornHub url.
@@ -55,3 +57,17 @@ The table in the database that holds the data is PhRes. The following is a field
 * 关注微信公众号，回复“微信群” 或者 “QQ群” ，即可上车
 
 <img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/WebHubCode2.png?raw=true" width = "700" height = "400" alt="图片名称" align=center />   
+
+
+[py2x]: https://img.shields.io/badge/python-2.x-brightgreen.svg
+[issues_img]: https://img.shields.io/github/issues/xiyouMc/WebHubBot.svg
+[issues]: https://github.com/xiyouMc/WebHubBot/issues
+
+[forks]: https://img.shields.io/github/forks/xiyouMc/WebHubBot.svg
+[network]: https://github.com/xiyouMc/WebHubBot/network
+
+[stars]: https://img.shields.io/github/stars/xiyouMc/WebHubBot.svg
+[stargazers]: https://github.com/xiyouMc/WebHubBot/stargazers
+
+[license]: https://img.shields.io/badge/license-MIT-blue.svg
+[lic_file]: https://raw.githubusercontent.com/xiyouMc/WebHubBot/master/LICENSE
