@@ -29,9 +29,8 @@
 
 ### 启动前配置
 
-* 安装MongoDB,并启动，不需要配置
-* 安装Scrapy
-* 安装Python的依赖模块：pymongo、json、requests
+* 安装MongoDB，并启动，不需要配置
+* 安装Python的依赖模块：Scrapy, pymongo, requests 或 `pip install -r requirements.txt`
 * 根据自己需要修改 Scrapy 中关于 间隔时间、启动Requests线程数等得配置
 
 ### 启动
