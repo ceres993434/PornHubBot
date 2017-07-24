@@ -26,8 +26,7 @@ Database: MongoDB
 ### Pre-boot configuration
 
 * Install MongoDB and start without configuration
-* Install Scrapy
-* Install Python dependent modules：pymongo, json, requests
+* Install Python dependent modules：Scrapy, pymongo, requests or `pip install -r requirements.txt`
 * Modify the configuration by needed, such as the interval time, the number of threads, etc.
 
 ### Start up
