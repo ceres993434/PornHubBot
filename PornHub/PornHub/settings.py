@@ -30,6 +30,9 @@ DOWNLOADER_MIDDLEWARES = {
     "PornHub.middlewares.UserAgentMiddleware": 401,
     "PornHub.middlewares.CookiesMiddleware": 402,
 }
-ITEM_PIPELINES = {
-    "PornHub.pipelines.PornhubMongoDBPipeline": 403,
-}
+# ITEM_PIPELINES = {
+#     "PornHub.pipelines.PornhubMongoDBPipeline": 403,
+# }
+
+FEED_URI=u'/Users/xiyouMc/Documents/pornhub.csv'
+FEED_FORMAT='CSV'
