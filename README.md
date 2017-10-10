@@ -53,9 +53,13 @@ The table in the database that holds the data is PhRes. The following is a field
 
 ## For Chinese
 
-* 关注微信公众号，回复“微信群” 或者 “QQ群” ，即可上车
+* 关注微信公众号，学习Python开发
 
-<img src="https://github.com/xiyouMc/PornHubBot/blob/master/img/WebHubCode2.png?raw=true" width = "700" height = "400" alt="图片名称" align=center />   
+<img src="https://github.com/xiyouMc/WebHubBot/blob/master/img/gongzhonghao.png?raw=true" width = "700" height = "400" alt="图片名称" align=center />   
+
+* 赞助
+
+<img src="https://github.com/xiyouMc/WebHubBot/blob/master/img/fukuan.png?raw=true?raw=true" width = "700" height = "400" alt="图片名称" align=center />   
 
 
 [py2x]: https://img.shields.io/badge/python-2.x-brightgreen.svg
