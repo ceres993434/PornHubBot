@@ -36,3 +36,7 @@ DOWNLOADER_MIDDLEWARES = {
 
 FEED_URI=u'/Users/xiyouMc/Documents/pornhub.csv'
 FEED_FORMAT='CSV'
+
+DEPTH_PRIORITY = 1
+SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleFifoDiskQueue'
+SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.FifoMemoryQueue'
