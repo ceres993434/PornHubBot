@@ -34,7 +34,7 @@ class Spider(CrawlSpider):
     def parse_ph_key(self, response):
         selector = Selector(response)
         logging.debug('request url:------>' + response.url)
-        logging.info(selector)
+        # logging.info(selector)
         divs = selector.xpath('//div[@class="phimage"]')
         for div in divs:
             # logging.debug('divs :------>' + div.extract())
@@ -55,7 +55,7 @@ class Spider(CrawlSpider):
     def parse_ph_info(self, response):
         phItem = PornVideoItem()
         selector = Selector(response)
-        logging.info(selector)
+        # logging.info(selector)
         _ph_info = re.findall('var flashvars =(.*?),\n', selector.extract())
         logging.debug('PH信息的JSON:')
         logging.debug(_ph_info)
