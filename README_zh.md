@@ -53,6 +53,17 @@
 	video_duration:视频的时长，以 s 为单位
 	quality_480p: 视频480p的 mp4 下载地址
 
+## 自定义
+
+#### 抓取特定类别的视频
+
+如需抓取特定类别的视频，编辑文件 ./PornHub/PornHub/pornhub_type.py
+
+注释掉/删掉不需要的类别，只保留需要的类别。
+该文件中已有“类别=日本”和“类别=亚洲”的示例。
+若需要其它的类别，请打开pornhub网站的相应类别，
+类别ID就在网址里。
+
 
 [py2x]: https://img.shields.io/badge/python-2.x-brightgreen.svg
 [issues_img]: https://img.shields.io/github/issues/xiyouMc/WebHubBot.svg
