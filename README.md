@@ -51,6 +51,19 @@ The table in the database that holds the data is PhRes. The following is a field
     video_duration:  The length of the video, in seconds
     quality_480p:    Video 480p mp4 download address
 
+## Customization
+
+#### Fetch videos of certain categories
+
+To let the crawler fetch only certain categories of video,
+edit file ./PornHub/PornHub/pornhub_type.py
+
+Comment out/delete other types, and only keep the one you want.
+
+To get a full list of categories,
+go to pornhub website, open the categories you like,
+then the category ID is simply shown in URL.
+
 ## For Chinese
 
 * 关注微信公众号，学习Python开发
