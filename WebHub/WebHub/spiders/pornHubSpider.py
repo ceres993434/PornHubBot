@@ -3,8 +3,8 @@ import requests
 import logging
 from scrapy.spiders import CrawlSpider
 from scrapy.selector import Selector
-from PornHub.items import PornVideoItem
-from PornHub.pornhub_type import PH_TYPES
+from WebHub.items import PornVideoItem
+from WebHub.pornhub_type import PH_TYPES
 from scrapy.http import Request
 import re
 import json
