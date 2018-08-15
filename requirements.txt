@@ -5,7 +5,7 @@ certifi==2017.4.17        # via requests
 cffi==1.10.0              # via cryptography
 chardet==3.0.4            # via requests
 constantly==15.1.0        # via twisted
-cryptography==1.9         # via pyopenssl
+cryptography==2.3.1         # via pyopenssl
 cssselect==1.0.1          # via parsel, scrapy
 enum34==1.1.6             # via cryptography
 hyperlink==17.2.1         # via twisted
