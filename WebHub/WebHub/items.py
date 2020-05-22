@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from scrapy import Item, Field
+
+
 class PornVideoItem(Item):
     video_title = Field()
     image_url = Field()

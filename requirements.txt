@@ -1,0 +1,31 @@
+asn1crypto==0.22.0        # via cryptography
+attrs==17.2.0             # via automat, service-identity
+Automat==0.6.0            # via twisted
+certifi==2017.4.17        # via requests
+cffi==1.10.0              # via cryptography
+chardet==3.0.4            # via requests
+constantly==15.1.0        # via twisted
+cryptography==2.3.1         # via pyopenssl
+cssselect==1.0.1          # via parsel, scrapy
+enum34==1.1.6             # via cryptography
+hyperlink==17.2.1         # via twisted
+idna==2.5                 # via cryptography, requests
+incremental==17.5.0       # via twisted
+ipaddress==1.0.18         # via cryptography
+lxml==3.8.0               # via parsel, scrapy
+parsel==1.2.0             # via scrapy
+pyasn1-modules==0.0.9     # via service-identity
+pyasn1==0.2.3             # via pyasn1-modules, service-identity
+pycparser==2.17           # via cffi
+PyDispatcher==2.0.5       # via scrapy
+pymongo==3.4.0
+pyopenssl==17.0.0         # via scrapy, service-identity
+queuelib==1.4.2           # via scrapy
+requests==2.18.1
+Scrapy==1.4.0
+service-identity==17.0.0  # via scrapy
+six==1.10.0               # via automat, cryptography, parsel, pyopenssl, scrapy, w3lib
+Twisted==17.5.0           # via scrapy
+urllib3==1.21.1           # via requests
+w3lib==1.17.0             # via parsel, scrapy
+zope.interface==4.4.2     # via twisted

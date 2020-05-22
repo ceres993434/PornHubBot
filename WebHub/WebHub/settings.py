@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'PornHub'
+BOT_NAME = 'WebHub'
 
-SPIDER_MODULES = ['PornHub.spiders']
-NEWSPIDER_MODULE = 'PornHub.spiders'
+SPIDER_MODULES = ['WebHub.spiders']
+NEWSPIDER_MODULE = 'WebHub.spiders'
 
 DOWNLOAD_DELAY = 1  # 间隔时间
 # LOG_LEVEL = 'INFO'  # 日志级别
@@ -27,9 +27,16 @@ REDIRECT_ENABLED = False
 ROBOTSTXT_OBEY = True
 
 DOWNLOADER_MIDDLEWARES = {
-    "PornHub.middlewares.UserAgentMiddleware": 401,
-    "PornHub.middlewares.CookiesMiddleware": 402,
+    "WebHub.middlewares.UserAgentMiddleware": 401,
+    "WebHub.middlewares.CookiesMiddleware": 402,
 }
-ITEM_PIPELINES = {
-    "PornHub.pipelines.PornhubMongoDBPipeline": 403,
-}
+# ITEM_PIPELINES = {
+#     "PornHub.pipelines.PornhubMongoDBPipeline": 403,
+# }
+
+FEED_URI=u'/Users/xiyouMc/Documents/pornhub.csv'
+FEED_FORMAT='CSV'
+
+DEPTH_PRIORITY = 1
+SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleFifoDiskQueue'
+SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.FifoMemoryQueue'
